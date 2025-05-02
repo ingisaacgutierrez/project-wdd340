@@ -9,6 +9,8 @@ import { Recipe } from '../recipe.model';
 })
 export class RecipeListComponent {
   recipes: Recipe[] = [
+    new Recipe('A Test Recipe', 'This is simply a test', 'https://cdn.pixabay.com/photo/2021/09/20/06/55/spaghetti-6639970_1280.jpg'),
     new Recipe('A Test Recipe', 'This is simply a test', 'https://cdn.pixabay.com/photo/2021/09/20/06/55/spaghetti-6639970_1280.jpg')
+
   ];
 }
